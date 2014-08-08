@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinSampleApp", "src\OwinSampleApp\OwinSampleApp.csproj", "{1446F20F-9715-41A4-94DE-EC5CBE97B382}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinSampleApp", "OwinSampleApp\OwinSampleApp.csproj", "{1446F20F-9715-41A4-94DE-EC5CBE97B382}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{8ADCD65C-3A3E-4161-A295-704B7ADE3423}"
 	ProjectSection(SolutionItems) = preProject
-		Dockerfile = Dockerfile
-		LICENSE = LICENSE
-		README.md = README.md
+		..\Dockerfile = ..\Dockerfile
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C955F780-2EC9-4A44-B13A-52176F40ED4A}"
