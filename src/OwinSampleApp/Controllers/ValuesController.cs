@@ -10,7 +10,7 @@
         {
             string ipaddress = this.GetIPAddress();
 
-            return new string[] { "value1", "value2", ipaddress };
+            return new string[] { ipaddress };
         }
 
         public string Get(int id)
